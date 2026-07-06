@@ -14,4 +14,3 @@ maintainers:
           - EricWittmann   # Eric Wittmann — Core server, UI, SDKs
           - jsenko         # Jakub Senko — Operator, storage, CI
           - carlesarnal    # Carles Arnal — Core server, releases, community
-          - andreaTP       # Andrea Peruffo — SDKs, serdes
