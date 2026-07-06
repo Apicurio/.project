@@ -6,7 +6,7 @@ slug: "apicurio-registry"
 name: "Apicurio Registry"
 description: "An open-source API, schema, and AI artifact registry. Manages APIs, data schemas, prompt templates, MCP tool definitions, and AI agent cards with versioning, compatibility rules, and multi-format support across event-driven and AI-native architectures."
 type: "project"
-project_lead: "carlesarnal"
+project_lead: "EricWittmann"
 slack_channels:
   - name: "#apicurio-registry"
     primary: true
