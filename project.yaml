@@ -4,7 +4,7 @@
 schema_version: "1.0.0"
 slug: "apicurio-registry"
 name: "Apicurio Registry"
-description: "An open-source API and schema registry for managing, sharing, and evolving API designs and data schemas across distributed systems."
+description: "An open-source API, schema, and AI artifact registry. Manages APIs, data schemas, prompt templates, MCP tool definitions, and AI agent cards with versioning, compatibility rules, and multi-format support across event-driven and AI-native architectures."
 type: "project"
 project_lead: "carlesarnal"
 slack_channels:
@@ -36,7 +36,7 @@ package_managers:
 social:
   twitter: "https://twitter.com/apicurio"
   youtube: "https://www.youtube.com/@Apicurio"
-  zulip: "https://apicurio.zulipchat.com/"
+  slack: "https://cloud-native.slack.com/channels/apicurio-registry"
 
 security:
   policy:
@@ -70,3 +70,6 @@ documentation:
 landscape:
   category: "App Definition and Development"
   subcategory: "Streaming & Messaging"
+
+# CLOMonitor Score: 69/100
+# Documentation: 88 | License: 86 | Best Practices: 16 | Security: 68
