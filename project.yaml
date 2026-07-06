@@ -1,46 +1,42 @@
 # .project metadata for Apicurio Registry
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set project_lead GitHub handle
-# TODO: Set slack_channels
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add package_managers if distributed via registries
-# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
-
 schema_version: "1.0.0"
 slug: "apicurio-registry"
 name: "Apicurio Registry"
-description: "Apicurio Registry is a runtime server system that stores a specific set of artifacts as files. "
+description: "An open-source API and schema registry for managing, sharing, and evolving API designs and data schemas across distributed systems."
 type: "project"
-# TODO: Set project lead GitHub handle
-# project_lead: "github-handle"
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#apicurio-registry"
-#     primary: true
+project_lead: "carlesarnal"
+slack_channels:
+  - name: "#apicurio-registry"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2026-03-12T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/495" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/495"
 
 repositories:
   - "https://github.com/Apicurio/apicurio-registry"
+  - "https://github.com/Apicurio/apicurio-registry-operator"
 
-website: "https://www.apicur.io"
+website: "https://www.apicur.io/registry/"
 
 artwork: "https://landscape.cncf.io/logos/apicurio-registry.svg"
 
 adopters:
   path: "https://github.com/Apicurio/apicurio-registry/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "Apicurio/apicurio-registry"
+package_managers:
+  docker: "apicurio/apicurio-registry"
+  maven: "io.apicurio:apicurio-registry-java-sdk"
+  npm: "@apicurio/apicurio-registry-sdk"
+  pypi: "apicurioregistrysdk"
 
 social:
   twitter: "https://twitter.com/apicurio"
+  youtube: "https://www.youtube.com/@Apicurio"
+  zulip: "https://apicurio.zulipchat.com/"
 
 security:
   policy:
@@ -51,6 +47,8 @@ security:
 governance:
   contributing:
     path: "https://github.com/Apicurio/apicurio-registry/blob/main/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/Apicurio/apicurio-registry/blob/main/GOVERNANCE.md"
   code_of_conduct:
     path: "https://github.com/Apicurio/apicurio-registry/blob/main/CODE_OF_CONDUCT.md"
 
@@ -66,10 +64,9 @@ legal:
 documentation:
   readme:
     path: "https://github.com/Apicurio/apicurio-registry/blob/main/README.md"
+  api:
+    path: "https://www.apicur.io/registry/docs/"
 
 landscape:
   category: "App Definition and Development"
   subcategory: "Streaming & Messaging"
-
-# CLOMonitor Score: 69/100
-# Documentation: 88 | License: 86 | Best Practices: 16 | Security: 68
