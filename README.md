@@ -1,4 +1,6 @@
 # Apicurio Registry `.project`
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FApicurio%2F.project.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FApicurio%2F.project?ref=badge_shield)
+
 
 `.project` (dot-project) is a CNCF initiative to centralize and automate metadata management for all CNCF projects.
 This repository holds the canonical metadata for [Apicurio Registry](https://www.apicur.io) and is maintained by the CNCF automation tooling.
@@ -26,3 +28,7 @@ The validate workflow will check schema correctness and block merge if validatio
 - [`.project` documentation](https://github.com/cncf/automation/tree/main/utilities/dot-project)
 - [Schema reference](https://github.com/cncf/automation/blob/main/utilities/dot-project/SCHEMA.md)
 - [CNCF Automation repository](https://github.com/cncf/automation)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FApicurio%2F.project.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FApicurio%2F.project?ref=badge_large)
