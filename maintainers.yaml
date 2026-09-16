@@ -12,7 +12,8 @@ maintainers:
       - name: "project-maintainers"
         members:
           - EricWittmann   # Eric Wittmann — Core server, UI, SDKs
-          - jsenko         # Jakub Senko — Operator, storage, CI
           - carlesarnal    # Carles Arnal — Core server, releases, community
+          - jsenko         # Jakub Senko — Operator, storage, CI
+          - nikishapatil26 # Nikisha Patil
           - paoloantinori  # Paolo Antinori - telemetry, performance
           - vandanayadav7  # Vandana Yadav - CLI
