@@ -22,7 +22,7 @@ repositories:
 
 website: "https://www.apicur.io/registry/"
 
-artwork: "https://landscape.cncf.io/logos/apicurio-registry.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/apicurio-registry"
 
 adopters:
   path: "https://github.com/Apicurio/apicurio-registry/blob/main/ADOPTERS.md"
